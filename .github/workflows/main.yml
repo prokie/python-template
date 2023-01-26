@@ -23,6 +23,8 @@ jobs:
           source venv/bin/activate
           pip install -e .[dev]
           echo "VIRTUAL ENV:" $VIRTUAL_ENV
+          which python
+          
 
       - name: Test with nox
         run: python -m nox -s test
