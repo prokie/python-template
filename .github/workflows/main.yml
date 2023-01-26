@@ -22,5 +22,5 @@ jobs:
           python -m venv venv --upgrade-deps
           source venv/bin/activate
           pip install -e .[dev]
-          nox -s test
+          nox
           
