@@ -22,12 +22,5 @@ jobs:
           python -m venv venv --upgrade-deps
           source venv/bin/activate
           pip install -e .[dev]
-          echo "VIRTUAL ENV:" $VIRTUAL_ENV
-          which python
+          nox -s test
           
-
-      - name: Test with nox
-        run: |
-          pip list
-          python -m nox -s test
-
