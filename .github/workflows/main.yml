@@ -27,5 +27,7 @@ jobs:
           
 
       - name: Test with nox
-        run: python -m nox -s test
+        run: |
+          pip list
+          python -m nox -s test
 
