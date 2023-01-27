@@ -2,18 +2,17 @@
 
 Python Template is a customizable starting point for your next project, fully
 equipped with a robust CI/CD pipeline. The project includes automated checks for
-code formatting, style, and types, as well as comprehensive unit testing, and
-the ability to build a professional documentation website using Sphinx, making
+code formatting, style, and types, as well as comprehensive unit testing, making
 it the perfect choice for any Python developer looking to streamline their
 workflow and ensure code quality.
 
 The given Python template contains an example of a class named `Calculator` that
 is overly documented, specifically in the form of the docstrings for each method
 and class level, and a detailed explanation of the class's purpose and the
-arguments that the class accepts. This is intended to illustrate how to properly
-document code using Sphinx, a tool for generating documentation from docstrings
-in Python code, and why it is important to have clear and thorough documentation
-in a codebase.
+arguments that the class accepts. It is important to realize that if you are not
+generating code using sphinx or similiar, overly documenting code is not a good 
+idea. With good variable, function, and class names, comments and long docstring 
+are seldom needed.
 
 ## Table of Contents
 
